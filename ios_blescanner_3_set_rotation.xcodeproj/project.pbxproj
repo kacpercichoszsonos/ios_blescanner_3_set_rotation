@@ -11,6 +11,9 @@
 		4B93D8C929915F5F00183D79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B93D8C829915F5F00183D79 /* ContentView.swift */; };
 		4B93D8CB29915F6000183D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B93D8CA29915F6000183D79 /* Assets.xcassets */; };
 		4B93D8CE29915F6000183D79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B93D8CD29915F6000183D79 /* Preview Assets.xcassets */; };
+		4B93D8D829915FC000183D79 /* BLEDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B93D8D729915FC000183D79 /* BLEDelegate.swift */; };
+		4B93D8DA2991607A00183D79 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B93D8D92991607A00183D79 /* Constants.swift */; };
+		4B93D8DC299160A700183D79 /* BleDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B93D8DB299160A700183D79 /* BleDeviceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		4B93D8C829915F5F00183D79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B93D8CA29915F6000183D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B93D8CD29915F6000183D79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B93D8D729915FC000183D79 /* BLEDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEDelegate.swift; sourceTree = "<group>"; };
+		4B93D8D92991607A00183D79 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4B93D8DB299160A700183D79 /* BleDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleDeviceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +57,14 @@
 		4B93D8C529915F5F00183D79 /* ios_blescanner_3_set_rotation */ = {
 			isa = PBXGroup;
 			children = (
+				4B93D8D629915FA700183D79 /* Views */,
+				4B93D8D529915FA000183D79 /* Services */,
+				4B93D8D429915F9500183D79 /* Models */,
 				4B93D8C629915F5F00183D79 /* ios_blescanner_3_set_rotationApp.swift */,
 				4B93D8C829915F5F00183D79 /* ContentView.swift */,
 				4B93D8CA29915F6000183D79 /* Assets.xcassets */,
 				4B93D8CC29915F6000183D79 /* Preview Content */,
+				4B93D8D92991607A00183D79 /* Constants.swift */,
 			);
 			path = ios_blescanner_3_set_rotation;
 			sourceTree = "<group>";
@@ -65,6 +75,29 @@
 				4B93D8CD29915F6000183D79 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B93D8D429915F9500183D79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B93D8DB299160A700183D79 /* BleDeviceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4B93D8D529915FA000183D79 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4B93D8D729915FC000183D79 /* BLEDelegate.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4B93D8D629915FA700183D79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B93D8C929915F5F00183D79 /* ContentView.swift in Sources */,
+				4B93D8D829915FC000183D79 /* BLEDelegate.swift in Sources */,
+				4B93D8DC299160A700183D79 /* BleDeviceModel.swift in Sources */,
 				4B93D8C729915F5F00183D79 /* ios_blescanner_3_set_rotationApp.swift in Sources */,
+				4B93D8DA2991607A00183D79 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
