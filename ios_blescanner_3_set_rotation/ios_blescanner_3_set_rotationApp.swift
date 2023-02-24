@@ -11,7 +11,7 @@ import SwiftUI
 struct ios_blescanner_3_set_rotationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: DukeAdvScannerViewModel())
         }
     }
 }
