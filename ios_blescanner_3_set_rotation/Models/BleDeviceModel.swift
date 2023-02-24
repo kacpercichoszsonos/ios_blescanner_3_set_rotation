@@ -9,7 +9,12 @@ import Foundation
 import CoreBluetooth
 
 struct BleDeviceModel: Identifiable {
-    var id: String { name }
-    var peripheral: CBPeripheral
+    var id: Int
     var name: String
+    var timestamp: String
+    var foundThreeSets: Bool
+    var advertisementData: NSDictionary
+    var set: String
+    var rssi: NSNumber
+    var timeInterval: Int
 }
